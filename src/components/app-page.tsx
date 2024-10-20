@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Send } from "lucide-react"
 
-export default function Page() {
+export function PageComponent() {
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden relative">
       <div
